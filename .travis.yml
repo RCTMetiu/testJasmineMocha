@@ -3,3 +3,7 @@ node_js:
  - "0.12"
 script:
  - test
+ notifications:
+	email: false
+after_failure:
+	print_surefire_reports.sh
