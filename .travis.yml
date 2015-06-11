@@ -6,3 +6,4 @@ before_script:
 - npm install -g istanbul
 script:
  - npm run-script test
+ - npm run-script istanbulStart
