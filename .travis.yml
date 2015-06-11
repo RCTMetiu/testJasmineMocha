@@ -8,6 +8,6 @@ before_script:
 script:
  - npm run-script test
 notifications:
-	email: - false
+ email: - false
 after_failure:
-	- print_surefire_reports.sh
+ - print_surefire_reports.sh
