@@ -8,9 +8,11 @@
   "author": "LateButSafe",
   "version": "0.0.1",
   "devDependencies": {
-    "mocha": "latest"
+    "mocha": "latest",
+		"istanbul": "latest"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+		"startIstanbul": "istanbul cover _mocha"
   }
 }
