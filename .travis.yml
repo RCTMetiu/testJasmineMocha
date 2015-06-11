@@ -7,7 +7,7 @@ before_script:
 - bower install
 script:
  - npm run-script test
- notifications:
-	email: false
+notifications:
+	email: - false
 after_failure:
-	print_surefire_reports.sh
+	- print_surefire_reports.sh
