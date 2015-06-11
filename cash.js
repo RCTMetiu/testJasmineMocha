@@ -20,3 +20,4 @@ C.getChange = function (totalPayable, cashPaid) {
     }
     return change;
 };
+module.exports=C;
